@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 100%;
+
+  h1 {
+    font-family: var(--font-family);
+    font-size: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 800;
+    color: #191919;
+    span {
+      background: linear-gradient(51deg, #338cf5 0%, #4fd1c5 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #666;
+    width: 640px;
+    margin-top: 30px;
+  }
+
+  .btns {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}

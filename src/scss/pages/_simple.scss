@@ -1,0 +1,41 @@
+.simple {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  position: relative;
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 124%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #191919;
+  }
+  h5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #666;
+    margin: 16px 0 80px 0;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 60%;
+    background: #191919;
+    z-index: -1;
+  }
+  
+}

@@ -1,0 +1,107 @@
+.explore {
+  margin-top: 80px;
+  background: #fbfbfb;
+  padding-top: 40px;
+  max-height: 760px;
+  margin-bottom: 120px;
+  h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 124%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #191919;
+  }
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #666;
+    width: 750px;
+    margin-top: 18px;
+    margin-bottom: 80px;
+  }
+  h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 131%;
+    letter-spacing: -0.01em;
+    color: #191919;
+  }
+  h5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #666;
+    width: 520px;
+    margin-bottom: 32px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    display: flex;
+    width: 100;
+    align-items: start;
+    justify-content: space-between;
+    gap: 80px;
+    width: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+
+  li {
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    width: 524px;
+    height: 128px;
+    box-shadow: 0 4px 6px -1px rgba(25, 25, 25, 0.04);
+    background: #fff;
+    transition: all 0.3s ease;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    &:hover {
+      background-color: #eaeaea;
+    }
+    span {
+      box-shadow: 0 1px 3px 0 rgba(25, 25, 25, 0.16);
+      background: #fff;
+      border-radius: 20px;
+      padding: 10px;
+      display: grid;
+      place-items: center;
+    }
+  }
+  h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.01em;
+    color: #191919;
+  }
+  small {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.01em;
+    color: #666;
+  }
+}

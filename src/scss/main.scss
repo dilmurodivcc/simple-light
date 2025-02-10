@@ -1,0 +1,15 @@
+@use "./base/reset" as *;
+@use "./components/bottons" as *;
+@use "./components/ovals" as *;
+@use "./layout/cards" as *;
+@use "./layout/footer" as *;
+@use "./layout/form" as *;
+@use "./layout/header" as *;
+@use "./layout/signIN" as *;
+@use "./layout/signUP" as *;
+@use "./layout/video" as *;
+@use "./pages/home" as *;
+@use "./pages/simple" as *;
+@use "./pages/explore" as *;
+@use "./pages/trusted" as *;
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');

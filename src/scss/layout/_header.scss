@@ -1,0 +1,23 @@
+header {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    background: radial-gradient(
+      79.94% 79.94% at 21.15% 86.06%,
+      #4fd1c5 0%,
+      #81e6d9 25.87%,
+      #338cf5 100%
+    );
+  }
+  nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+}
