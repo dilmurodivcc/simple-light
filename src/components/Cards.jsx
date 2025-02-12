@@ -1,12 +1,12 @@
 import Card from "./Card";
 
 // Images of cards
-import img1 from "../assets/icon/icon-1.svg";
-import img2 from "../assets/icon/icon 2.svg";
-import img3 from "../assets/icon/icon-3.svg";
-import img4 from "../assets/icon/icon-4.svg";
-import img5 from "../assets/icon/icon-5.svg";
-import img6 from "../assets/icon/icon-6.svg";
+import img1 from "../assets/icon/Icon-1.svg";
+import img2 from "../assets/icon/Icon 2.svg";
+import img3 from "../assets/icon/Icon-3.svg";
+import img4 from "../assets/icon/Icon-4.svg";
+import img5 from "../assets/icon/Icon-5.svg";
+import img6 from "../assets/icon/Icon-6.svg";
 
 function Cards() {
   let data = [
