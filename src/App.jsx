@@ -28,7 +28,7 @@ function App() {
       <div className="container">
         <Trusted />
         <Form/>
-
+        <Footer />
       </div>
     </>
   );
